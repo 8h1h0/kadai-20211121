@@ -1,0 +1,317 @@
+body {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+h1 {
+    color: #ffffff;
+    font-size: 5.0rem;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 200px;
+}
+h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.0rem;
+}
+h3 {
+    border-bottom: solid 3px #ff0000;
+    text-align: center;
+}
+.sub-title {
+    display: inline-block;
+}
+.sec-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 620px;
+}
+/* -------------------------------------------
+header
+------------------------------------------- */
+#header {
+    background-image: url(img/places-g86475edc1_1920.jpg);
+    background-size: cover;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+li {
+    color: #ffffff;
+    list-style: none;
+    padding: 5px 10px;
+    text-shadow: 1px 2px 3px #808080;
+}
+
+/* -------------------------------------------
+menu
+------------------------------------------- */
+#menu > .wrapper {
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+#menu > .sec-title {
+    background-image: url(img/coffee-gcac501f95_1920.jpg);
+    margin-bottom: 40px;
+}
+.left-menu {
+    width: calc(50% - 1px);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 2px #000;
+}
+.right-menu {
+    display: flex;
+    width: calc(50% - 1px);
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.coffee-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.food-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+.other-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50%;
+}
+#menu dl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+#menu dt {
+    width: 90%;
+    text-align: left;
+    border-bottom: solid 1px gray;
+}
+#menu dd {
+    text-align: right;
+    /* 何に対して4%なのか？ */
+    padding-top: 4%;
+    margin: 0 auto;
+}
+/* -------------------------------------------
+about
+------------------------------------------- */
+#about .sec-title {
+    background-image: url(img/coffee-g49e7cfc97_1920.jpg);
+}
+#about .sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#about .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.left-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.right-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.coffee-1 {
+    width: 80%;
+    margin-bottom: 30px;
+}
+.coffee-2 {
+    width: 80%;
+    margin-bottom: 30px;
+}
+.coffee-3 {
+    width: 80%;
+    margin-bottom: 30px;
+}
+.coffee-4 {
+    width: 80%;
+    margin-bottom: 30px;
+}
+.read-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.read-more p {
+    position: relative;
+    line-height: 1.4;
+    padding: 20px 40px;
+    display: inline-block;
+}
+.read-more p:before, p:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    display: inline-block;
+}
+.read-more p:before {
+    border-left: solid 1px #ff0000;
+    border-top: solid 1px #ff0000;
+    top: 0;
+    left: 0;
+}
+.read-more p::after {
+    border-right: solid 1px #ff0000;
+    border-bottom: solid 1px #ff0000;
+    right: 0;
+    bottom: 0;
+}
+/* .read-more p:before {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background-color: #ff0000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
+/* .read-more:before {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 20px; */
+    /* border-top: 2px solid #ff0000; */
+    /* background-color: #ff0000;
+    position: absolute;
+    top: 0px;
+    left: 45%;
+} */
+/* .read-more p:after {
+    content: "";
+    width: 20px;
+    height: 1px;
+    background-color: #ff0000;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.read-more p:after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+} */
+#button {
+    padding: 10px 30px;
+}
+/* -------------------------------------------
+location
+------------------------------------------- */
+#location .sec-title {
+    background-image: url(img/kesan-g059a25433_1280.jpg);
+    background-size: cover;
+}
+#location .sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#location .wrapper {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+.location-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 50%;
+    padding-left: 100px;
+}
+
+/* -------------------------------------------
+footer
+------------------------------------------- */
+#footer {
+    text-align: center;
+}
+/* -------------------------------------------
+sp
+------------------------------------------- */
+@media screen and (max-width: 640px) {
+    #header {
+        background-image: url(img/22290756_s.jpg);
+        max-width: 100%;
+        max-height: 760px;
+        background-size: cover;
+    }
+    #header h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    #menu .left-menu {
+        width: 100%;
+        border-right: none;
+    }
+    #menu .right-menu {
+        width: 100%;
+    }
+    #about .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    #about .left-about {
+        width: 100%;
+    }
+    #about .right-about {
+        width: 100%;
+    }
+}
